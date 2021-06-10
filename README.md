@@ -1,88 +1,46 @@
-<br/>
-<p align="center">
-    <img src="test/fireworks_emoji.png" />
-</p>
+# Getting Started with Create React App
 
-<p align="center"><b>Fireworks.js</b></p>
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-<p align="center">
-    A simple fireworks library!
-</p>
-<br/>
+## Available Scripts
 
-<p align="center">
-    <a href="https://travis-ci.org/github/crashmax-dev/fireworks-js" target="_blank"><img alt="Travis (.org)" src="https://img.shields.io/travis/crashmax-dev/fireworks-js"></a>
-    <a href="https://www.npmjs.com/package/fireworks-js" target="_blank"><img alt="npm" src="https://img.shields.io/npm/v/fireworks-js"></a>
-    <a href="#"><img alt="npm bundle size" src="https://img.shields.io/bundlephobia/min/fireworks-js"></a>
-</p>
+In the project directory, you can run:
 
-## Demo
+### `yarn start`
 
-> https://crashmax-dev.github.io/fireworks-js/
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-## Installation
+The page will reload if you make edits.\
+You will also see any lint errors in the console.
 
-with npm:
+### `yarn test`
 
-```
-npm install fireworks-js
-```
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-or yarn:
+### `yarn build`
 
-```
-yarn add fireworks-js
-```
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-## Usage
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
 
-```js 
-// ES6
-import { Fireworks } from 'fireworks-js'
-```
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-```js
-// commonjs
-const { Fireworks } = require('fireworks-js')
-```
+### `yarn eject`
 
-```html
-<!-- including in your html page -->
-<script src="https://crashmax-dev.github.io/fireworks-js/fireworks.js"></script>
-```
+**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
 
-```js
-// use querySelector or getElementById
-const container = document.querySelector('.fireworks-container')
+If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-// default config
-const fireworks = new Fireworks({
-    target: container
-})
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
 
-fireworks.start()
+You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
-fireworks.pause()
+## Learn More
 
-fireworks.clear()
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-// stop and clear fireworks
-fireworks.stop()
-```
-
-## Options
-
-* **hue**: (default: `120`)
-* **startDelay**: (default: `30`)
-* **minDelay**: (default: `30`)
-* **maxDelay**: (default: `90`)
-* **speed**: (default: `2`)
-* **acceleration**: (default: `1.05`)
-* **friction**: (default: `0.95`)
-* **gravity**: (default: `1.5`)
-* **particles**: (default: `50`)
-* **trace**: (default: `3`)
-* **explosion**: (default: `5`)
-* **autoresize**: (default: `true`)
-* **boundaries**: (default: `{ top: 50, bottom: 0, left: 50, right: 0 }`)
-* **sound**: (default: `{ enable: false, { list: [ ... ], min: 4, max: 8 }`)
+To learn React, check out the [React documentation](https://reactjs.org/).

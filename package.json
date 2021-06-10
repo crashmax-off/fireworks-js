@@ -1,50 +1,43 @@
 {
-    "name": "fireworks-js",
-    "version": "1.0.7",
-    "description": "A simple fireworks library!",
-    "unpkg": "dist/fireworks.js",
-    "main": "dist/fireworks.js",
-    "types": "dist/fireworks.d.ts",
-    "files": [
-        "dist/fireworks.js",
-        "dist/fireworks.d.ts"
+  "name": "fireworks-js-demo",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@testing-library/jest-dom": "^5.11.4",
+    "@testing-library/react": "^11.1.0",
+    "@testing-library/user-event": "^12.1.10",
+    "@types/jest": "^26.0.15",
+    "@types/node": "^12.0.0",
+    "@types/react": "^17.0.0",
+    "@types/react-dom": "^17.0.0",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-scripts": "4.0.3",
+    "typescript": "^4.1.2",
+    "web-vitals": "^1.0.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
     ],
-    "scripts": {
-        "dev": "cross-env NODE_ENV=development webpack-dev-server --config-name main --host localhost --watch-poll",
-        "build": "cross-env NODE_ENV=production webpack --progress"
-    },
-    "repository": {
-        "type": "git",
-        "url": "git+https://github.com/crashmax-dev/fireworks-js.git"
-    },
-    "keywords": [
-        "canvas",
-        "fireworks",
-        "animation"
-    ],
-    "author": {
-        "name": "Vitalij Ryndin",
-        "email": "sys@crashmax.ru",
-        "url": "https://crashmax.ru"
-    },
-    "license": "GPL-3",
-    "bugs": {
-        "url": "https://github.com/crashmax-dev/fireworks-js/issues"
-    },
-    "homepage": "https://crashmax-dev.github.io/fireworks-js/",
-    "devDependencies": {
-        "@babel/core": "^7.12.10",
-        "@babel/preset-env": "^7.12.11",
-        "@types/webpack": "^4.41.22",
-        "@types/webpack-dev-server": "^3.11.0",
-        "babel-loader": "^8.2.2",
-        "clean-webpack-plugin": "^3.0.0",
-        "copy-webpack-plugin": "^6.2.1",
-        "cross-env": "^7.0.3",
-        "ts-loader": "^8.0.14",
-        "typescript": "^4.1.3",
-        "webpack": "^4.44.2",
-        "webpack-cli": "^3.3.12",
-        "webpack-dev-server": "^3.11.0"
-    }
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
 }
