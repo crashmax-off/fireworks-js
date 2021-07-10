@@ -1,0 +1,70 @@
+[
+    {
+        "key": "<code>speed</code>",
+        "default values": "<code>2</code>"
+    },
+    {
+        "key": "<code>acceleration</code>",
+        "default values": "<code>1.05</code>"
+    },
+    {
+        "key": "<code>friction</code>",
+        "default values": "<code>0.95</code>"
+    },
+    {
+        "key": "<code>gravity</code>",
+        "default values": "<code>1.5</code>"
+    },
+    {
+        "key": "<code>particles</code>",
+        "default values": "<code>50</code>"
+    },
+    {
+        "key": "<code>trace</code>",
+        "default values": "<code>3</code>"
+    },
+    {
+        "key": "<code>explosion</code>",
+        "default values": "<code>5</code>"
+    },
+    {
+        "key": "<code>autoresize</code>",
+        "default values": "<code>true</code>"
+    },
+    {
+        "key": "<code>hue</code>",
+        "default values": "<code>{ min: 0, max: 360 }</code>"
+    },
+    {
+        "key": "<code>delay</code>",
+        "default values": "<code>{ min: 15, max: 30 }</code>"
+    },
+    {
+        "key": "<code>boundaries</code>",
+        "default values": "<code>{ top: 50, bottom: container.clientHeight, left: 50, right: container.clientWidth }</code>"
+    },
+    {
+        "key": "<code>sound</code>",
+        "default values": "<code>{ enable: false }</code>"
+    },
+    {
+        "key": "<code>sound.files</code>",
+        "default values": "<code>[ '*.mp3', '*.ogg', '*.wav' ]</code>"
+    },
+    {
+        "key": "<code>sound.volume</code>",
+        "default values": "<code>{ min: 1, max: 2 }</code>"
+    },
+    {
+        "key": "<code>mouse</code>",
+        "default values": "<code>{ click: false, move: false, max: 3 }</code>"
+    },
+    {
+        "key": "<code>brightness</code>",
+        "default values": "<code> { min: 50, max: 80 }</code>"
+    },
+    {
+        "key": "<code>brightness.decay</code>",
+        "default values": "<code>{ min: 0.015, max: 0.03 }</code>"
+    }
+]
